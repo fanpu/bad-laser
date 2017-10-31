@@ -1,9 +1,0 @@
-from picamera import PiCamera
-from time import sleep
-
-camera = PiCamera()
-
-camera.start_preview()
-camera.capture('/root/hacknroll/image.jpg')
-sleep(10)
-camera.stop_preview()
